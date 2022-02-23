@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LastName {
 	public void validateFirstName(String name) {
 		String lNamePattern = "^[A-Z][a-z]{2,}$";
-		boolean result = name.matches(lNamePattern) ;
+		boolean result = name.matches(lNamePattern);
 		System.out.println(result);
 	}
 	
